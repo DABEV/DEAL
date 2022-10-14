@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DEAL</string>
+    <string name="register">Registro</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="signup_login_hint">Ya tienes cuenta? Inicia sesión</string>
+    <string name="login_signup_hint">No tienes cuenta? Registrate</string>
+
 </resources>

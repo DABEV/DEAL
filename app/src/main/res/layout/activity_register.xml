@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    style="@style/loginParent"
+    android:layout_height="match_parent"
+    tools:context=".views.access.RegisterActivity">
+
+    <ScrollView
+        style="@style/parent">
+
+        <RelativeLayout
+            style="@style/parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:weightSum="12">
+
+                <LinearLayout
+                    style="@style/parent"
+                    android:background="@drawable/login_shape_bk"
+                    android:orientation="vertical"
+                    android:layout_weight="3">
+
+                    <ImageView
+                        style="@style/parent"
+                        android:background="@drawable/ic_login_bk"
+                        android:contentDescription="login background" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp">
+
+
+                <TextView
+                    style="@style/headerText"
+                    android:layout_gravity="center"
+                    android:text="DEAL"
+                    android:layout_marginTop="40dp"/>
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/loginCard"
+                app:cardCornerRadius="@dimen/loginCardRadius"
+                android:elevation="5dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/whiteCardColor">
+                <LinearLayout
+                    style="@style/linearParent"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/loginViewsMargin">
+
+                    <TextView
+                        style="@style/headerTextPrimary"
+                        android:text="@string/register"
+                        android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/parent"
+                        android:layout_marginTop="@dimen/signup_text_margin_top">
+                        <EditText
+                            style="@style/modifiedEditText"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:hint="Nombre"
+                            android:backgroundTint="@color/whiteCardColor"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/parent"
+                        android:layout_marginTop="@dimen/signup_text_margin_top">
+                        <EditText
+                            style="@style/modifiedEditText"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:hint="Teléfono"
+                            android:backgroundTint="@color/whiteCardColor"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/parent"
+                        android:layout_marginTop="@dimen/signup_text_margin_top">
+                        <EditText
+                            style="@style/modifiedEditText"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:hint="@string/login_email_hint"
+                            android:backgroundTint="@color/whiteCardColor"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/parent"
+                        android:layout_marginTop="@dimen/signup_text_margin_top">
+                        <EditText
+                            style="@style/modifiedEditText"
+                            android:hint="@string/login_password_hint"
+                            android:maxLines="1"
+                            android:inputType="textPassword"
+                            android:backgroundTint="@color/whiteCardColor"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center">
+                        <ImageButton
+                            android:id="@+id/cirLoginButton"
+                            android:layout_height="wrap_content"
+                            android:background="@color/whiteCardColor"
+                            android:layout_width="wrap_content"
+                            android:src="@drawable/login_button_bk"
+                            android:text="Login"
+                            android:layout_marginTop="20dp"
+                            android:layout_gravity="top"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Registro"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="35dp"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="@color/whiteCardColor"
+                            ></TextView>
+                    </FrameLayout>
+
+                    <TextView
+                        style="@style/parent"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/primaryTextColor"
+                        android:text="@string/signup_login_hint"
+                        android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

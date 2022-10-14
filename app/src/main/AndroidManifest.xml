@@ -16,6 +16,12 @@
         android:theme="@style/Theme.DEAL"
         tools:targetApi="31">
         <activity
+            android:name=".views.access.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.access.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
