@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.DetailRequestActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="40dp">
+        <TextView
+            android:id="@+id/textViewServiceName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre del servicio"
+            android:layout_marginBottom="20dp"></TextView>
+        <TextView
+            android:id="@+id/textViewUbication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubicación"
+            android:layout_marginBottom="5dp"></TextView>
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estatus"
+            android:layout_marginBottom="5dp"></TextView>
+        <TextView
+            android:id="@+id/textViewPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persona"
+            android:layout_marginBottom="5dp"></TextView>
+        <TextView
+            android:id="@+id/textViewServiceType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo del servicio"
+            android:layout_marginBottom="5dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceptar"
+            android:layout_marginBottom="10dp"></Button>
+        <Button
+            android:id="@+id/btnWithdraw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rechazar"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>
