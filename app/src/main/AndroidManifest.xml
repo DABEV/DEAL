@@ -19,6 +19,9 @@
             android:name=".view.SplashActivity"
             android:exported="false" />
         <activity
+            android:name=".view.DetailRequestActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.RegisterActivity"
             android:exported="false" />
         <activity
