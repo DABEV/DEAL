@@ -1,4 +1,4 @@
-package mx.edu.utez.deal.activity
+package mx.edu.utez.deal.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
