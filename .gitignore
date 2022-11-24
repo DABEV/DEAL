@@ -34,3 +34,7 @@ google-services.json
 *.hprof
 
 .DS_Store
+
+# Google Maps Config
+google_maps_api.xml
+
