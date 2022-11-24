@@ -16,6 +16,9 @@
         android:theme="@style/Theme.DEAL"
         tools:targetApi="31">
         <activity
+            android:name=".view.ServiceHistoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.SplashActivity"
             android:exported="false" />
         <activity
