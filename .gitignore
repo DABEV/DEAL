@@ -29,12 +29,9 @@ render.experimental.xml
 
 # Google Services (e.g. APIs or Firebase)
 google-services.json
+google_maps_api.xml
 
 # Android Profiling
 *.hprof
 
 .DS_Store
-
-# Google Maps Config
-google_maps_api.xml
-

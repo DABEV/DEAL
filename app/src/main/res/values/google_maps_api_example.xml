@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--
-TODO: Before you run your application, you need a Google Maps API key.
+    To get one, follow this link, follow the directions and press "Create" at the end:
 
-To get one, follow this link, follow the directions and press "Create" at the end:
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=D3:E4:91:77:15:93:CD:9A:BD:E5:C2:BA:56:D2:A8:C4:6B:6F:E7:08%3Bcom.atejeda.ejerciciosb.mapas
 
-https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=D3:E4:91:77:15:93:CD:9A:BD:E5:C2:BA:56:D2:A8:C4:6B:6F:E7:08%3Bcom.atejeda.ejerciciosb.mapas
+    You can also add your credentials to an existing key, using these values:
 
-You can also add your credentials to an existing key, using these values:
+    Package name:
+    mx.edu.utez.deal
 
-Package name:
-com.atejeda.ejerciciosb.mapas
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
 
-SHA-1 certificate fingerprint:
-D3:E4:91:77:15:93:CD:9A:BD:E5:C2:BA:56:D2:A8:C4:6B:6F:E7:08
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
 
-Alternatively, follow the directions here:
-https://developers.google.com/maps/documentation/android/start#get-key
+    IMPORTANT!!!
+    This file is an example file to the right file, follow the next instructions:
 
-Once you have your key (it starts with "AIza"), replace the "google_maps_key"
-string in this file.
--->
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
-YOUR_KEY_HERE
-</string>
+    - Copy all content from this file and paste in a new file called google_maps_api.xml
+    - In google_maps_api.xml, change the string name from google_maps_key_example to google_maps_key
+    - Paste your API Key
+    -->
+    <string name="google_maps_key_example" templateMergeStrategy="preserve" translatable="false">
+        YOUR_KEY_HERE
+    </string>
 </resources>

@@ -17,8 +17,6 @@
         tools:targetApi="31">
 
         <!--
-             TODO: Before you run your application, you need a Google Maps API key.
-
              To get one, follow the directions here:
 
                 https://developers.google.com/maps/documentation/android-sdk/get-api-key
@@ -32,11 +30,11 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".view.MapsActivity"
             android:exported="false"
-            android:label="@string/title_activity_maps" />
+            android:label="Maps Activity" />
         <activity
-            android:name=".ConfirmServiceActivity"
+            android:name=".view.ConfirmServiceActivity"
             android:exported="false" />
         <activity
             android:name=".view.ServiceHistoryActivity"
